@@ -10,7 +10,7 @@ config.rules = {
     'global-require': 'off',
     'import/prefer-default-export': 'off',
     'no-magic-numbers': ['error', {
-        ignore: [0, 1, 2, 1000],
+        ignore: [0, 1, 2, 4, 1000],
         ignoreArrayIndexes: true,
         enforceConst: true,
     }],
